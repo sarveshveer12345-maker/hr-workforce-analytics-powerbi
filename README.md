@@ -152,7 +152,7 @@ Key visualizations include:
 -	**Department-wise Attrition count**
 -	**Attrition by Gender**
   
-Users can interact with the dashboard using filters to explore workforce trends across different employee groups.
+Users can interact with the dashboard using slicers and filters to explore workforce trends across different employee groups.
 
 ---
 
