@@ -80,7 +80,7 @@ These attributes help analyze employee demographics, compensation, and workforce
 
 The dataset was imported into Power BI from the Excel file:
 
-Raw_HR_Data.xlsx
+hr_employee_dataset.csv
 
 All data preparation and transformation were performed in Power Query Editor.
 
@@ -114,7 +114,8 @@ These measures enable the dashboard to track employee workforce metrics and attr
 ---
 
 ## Dashboard Preview
-![Dataset Preview](images/dataset_preview.png)
+
+![HR Workforce Analytics Dashboard](images/hr_dashboard_preview.png)
 
 ---
 
