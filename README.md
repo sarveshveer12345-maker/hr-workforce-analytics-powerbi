@@ -45,7 +45,8 @@ The dashboard enables HR stakeholders to identify patterns and make data-driven 
 ---
 
 ## Dataset Preview
-![Dataset Preview](images/dataset_preview.png) 
+
+![Dataset Preview](dataset_Preview.png) 
 
 ---
 ## Dataset Information
