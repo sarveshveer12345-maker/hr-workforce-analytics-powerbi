@@ -257,7 +257,7 @@ HR-Workforce-Analytics-PowerBI
 │
 ├── images
 │   ├── dataset_preview.png
-│   └── hr_workforce_analytics_dashboard_preview.png
+│   └── hr_workforce_analytics_dashboard.png
 │
 └── README.md
 
@@ -273,7 +273,7 @@ hr_workforce_analytics_powerbi.pbix – Power BI dashboard file containing visua
 
 dataset_preview.png – Screenshot preview of the dataset used in the analysis.
 
-hr_workforce_analytics_dashboard_preview.png – Screenshot of the interactive Power BI dashboard.
+hr_workforce_analytics_dashboard.png – Screenshot of the interactive Power BI dashboard.
 
 --- 
 
