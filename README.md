@@ -51,7 +51,7 @@ The dashboard enables HR stakeholders to identify patterns and make data-driven 
 ---
 ## Dataset Information
 
-The dataset used in this project contains 1,481 Rows and 38 columns with multiple HR attributes including demographic information, job roles, salary details, and employment history.
+The dataset used in this project contains 1,481 rows and 38 columns with multiple HR attributes including demographic information, job roles, salary details, and employment history.
 
 ### Dataset Columns
 
@@ -81,7 +81,7 @@ These attributes help analyze employee demographics, compensation, and workforce
 
 The dataset was imported into Power BI from the Excel file:
 
-hr_employee_dataset.csv
+hr_employee_dataset.xlsx
 
 All data preparation and transformation were performed in Power Query Editor.
 
@@ -102,13 +102,16 @@ All transformation steps can be viewed in the Applied Steps section of Power Que
 Several DAX measures were created to support key HR metrics.
 
 **Total Employees**
-Total Employees = COUNT('HR_Analytics'[EmpID])
+Total Employees = 
+COUNT('HR_Analytics'[EmpID])
 
 **Employees Left (Attrition)**
-Employees left = CALCULATE(COUNT('HR_Analytics'[EmpID]),'HR_Analytics'[Attrition] = "Yes")
+Employees left = 
+CALCULATE(COUNT('HR_Analytics'[EmpID]),'HR_Analytics'[Attrition] = "Yes")
 
 **Attrition Rate**
-Attrition Rate = SUM(HR_Analytics[Attrition Count])/SUM(HR_Analytics[EmployeeCount])
+Attrition Rate = 
+SUM(HR_Analytics[Attrition Count])/SUM(HR_Analytics[EmployeeCount])
 
 These measures enable the dashboard to track employee workforce metrics and attrition trends.
 
@@ -130,7 +133,7 @@ The dashboard highlights key workforce metrics including:
 - **Attrition** - 237
 - **Attrition Rate (%)** - 16.1%
 - **Average Employee Age** - 36.92
-- **Averege Salary** - 6.5k
+- **Average Salary** - 6.5K
 - **Average Tenure (Years)** - 7.01
 
 These KPIs provide a high-level overview of workforce stability and employee turnover.
@@ -232,11 +235,11 @@ This project demonstrates several core data analytics skills including:
 
 The project follows a simple analytics workflow:
 
-Raw Dataset (Excel)  
-1. Data Cleaning & Transformation (Power Query)  
-2. Data Analysis (DAX Measures)  
-3. Data Visualization (Power BI Dashboard)  
-4. Business Insights
+1. Raw Dataset (Excel)  
+2. Data Cleaning & Transformation (Power Query)  
+3. Data Analysis (DAX Measures)  
+4. Data Visualization (Power BI Dashboard)  
+5. Business Insights
 
 This workflow demonstrates how raw HR data can be transformed into meaningful workforce insights.
 
