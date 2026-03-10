@@ -3,7 +3,7 @@
 ## Project Overview
 
 Organizations often struggle to understand why employees leave and which factors contribute most to workforce attrition.
-This project uses Power BI analytics and visualization to explore employee workforce data and uncover insights related to:
+This project uses Power BI for analytics and visualization to explore employee workforce data and uncover insights related to:
 
 -	Employee attrition
 -	Salary distribution
