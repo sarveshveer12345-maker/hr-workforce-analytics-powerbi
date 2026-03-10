@@ -115,7 +115,7 @@ These measures enable the dashboard to track employee workforce metrics and attr
 
 ## Dashboard Preview
 
-![HR Workforce Analytics Dashboard](images/hr_dashboard_preview.png)
+![HR Workforce Analytics Dashboard](HR_Workforce_Analytics_Dashboard.png)
 
 ---
 
