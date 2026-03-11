@@ -102,14 +102,17 @@ All transformation steps can be viewed in the Applied Steps section of Power Que
 Several DAX measures were created to support key HR metrics.
 
 **Total Employees**
+
 Total Employees = 
 COUNT('HR_Analytics'[EmpID])
 
 **Employees Left (Attrition)**
+
 Employees left = 
 CALCULATE(COUNT('HR_Analytics'[EmpID]),'HR_Analytics'[Attrition] = "Yes")
 
 **Attrition Rate**
+
 Attrition Rate = 
 SUM(HR_Analytics[Attrition Count])/SUM(HR_Analytics[EmployeeCount])
 
